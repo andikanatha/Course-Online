@@ -14,7 +14,7 @@
             @foreach($userEnrollments as $enrollment)
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="{{ optional($enrollment->course->photo)->getUrl() ?? asset('img/no_image.png') }}" class="special_img" alt="">
+                        <img src="{{optional($enrollment->course->photo)->getUrl() ?? asset('img/no_img.png') }}" class="special_img" alt="">
                         <div class="special_cource_text">
                             @foreach($enrollment->course->disciplines as $discipline)
                                 <a href="{{ route('courses.index') }}?discipline={{ $discipline->id }}" class="btn_4 mr-1 mb-1">{{ $discipline->name }}</a>

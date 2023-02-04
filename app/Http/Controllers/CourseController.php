@@ -8,8 +8,7 @@ class CourseController extends Controller
 {
     public function index()
     {
-        $courses = Course::searchResults()
-            ->paginate(6);
+        $courses = Course::searchResults()->paginate(6);
 
         $breadcrumb = "Courses";
 

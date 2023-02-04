@@ -40,11 +40,11 @@
         </div>
         <div class="row">
             <div class="col-12 mb-4">
-                <div class="float-right">
+                <div class="float-left">
                     {{ $courses->appends(request()->query())->links() }}
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 </section>
 @endsection
