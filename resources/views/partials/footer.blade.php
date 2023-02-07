@@ -4,14 +4,13 @@
             <div class="col-sm-6 col-md-4 col-xl-3">
                 <div class="single-footer-widget footer_1">
                     <a href="index.html"> <img src="{{ asset('img/course-logo.png') }}" alt=""> </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus pellentesque eu. Bibendum ut tristique et egestas quis ipsum suspendisse. </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                    <p>Menjadi ahli di bidang apapun dengan mudah dan efisien. Temukan ribuan kelas daring berkualitas tinggi dalam satu tempat. Temukan solusi belajar yang sesuai dengan gaya hidupmu. Pelajari dan tingkatkan keahlianmu dengan pembelajaran daring dari para ahli.</p>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-xl-4">
                 <div class="single-footer-widget footer_2">
                     <h4>Suggestion</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    <p>Mulai petualangan belajar barumu dan tingkatkan diri dan keahlianmu melalui ACG Course
                     </p>
                     <form action="#">
                         <div class="form-group">
