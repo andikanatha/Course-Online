@@ -268,7 +268,8 @@
                                 </div>
                                 <div class="col-xl-2 d-none d-xl-block">
                                     <div class="testimonial_slider_img">
-                                        <img src="img/testimonial_img_1.png" alt="#">
+                                        {{-- <img src="{{ Storage::url("4/63e1edbea3d54_logo-java.jpg") }}" alt="#"> --}}
+                                        <img src="{{ asset('storage/4/63e1edbea3d54_logo-java.jpg') }}" />
                                     </div>
                                 </div>
                             </div>
