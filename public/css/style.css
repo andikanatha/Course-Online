@@ -6414,6 +6414,36 @@ h1, h2, h3, h4, h5, h6 {
 /* line 36, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog_part.scss */
 .blog_part .single-home-blog .card-img-top {
   border-radius: 0px;
+  height: 359.99px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+  .blog_part .single-home-blog .card-img-top {
+    border-radius: 0px;
+    height: 290px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .blog_part .single-home-blog .card-img-top {
+    border-radius: 0px;
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .blog_part .single-home-blog .card-img-top {
+    border-radius: 0px;
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 /* line 39, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog_part.scss */
